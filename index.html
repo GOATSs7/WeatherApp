@@ -38,29 +38,79 @@
               <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-              id="submit"
-            />
-            <button class="btn btn-outline-primary" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
 
-    <!-- card body  -->
+    <div class="form">
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          id="city"
+          required
+        />
+        <button class="btn btn-outline-primary" type="submit" id="submit">
+          Search
+        </button>
+      </form>
+    </div>
 
-    <div class="card">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <!-- card body  -->
+    <div class="card weather-card">
       <div class="card-body">
-        <p class="card-text"></p>
+        <h5 class="card-title">
+          Weather in <span id="city-Name">Kolhapur</span>
+        </h5>
+
+        <div class="temp">
+          <p class="temperature"><span id="temp"></span> <b>°C</b></p>
+        </div>
+
+        <ul class="weather-info">
+          <li class="weather-item">
+            <span class="weather-label">Cloud Cover:</span>
+            <span id="cloud_pct"></span><span> %</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Feels Like:</span>
+            <span id="feels_like"></span><span> °C</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Humidity:</span>
+            <span id="humidity"></span><span>%</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Max Temp:</span>
+            <span id="max_temp"></span><span>°C</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Min Temp:</span>
+            <span id="min_temp"></span><span>°C</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Sunrise:</span>
+            <span id="sunrise"></span><span>seconds</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Sunset:</span>
+            <span id="sunset"></span><span>seconds</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Wind Speed:</span>
+            <span id="wind_speed"></span><span> m/s</span>
+          </li>
+          <li class="weather-item">
+            <span class="weather-label">Wind Direction:</span>
+            <span id="wind_degrees"></span><span>°</span>
+          </li>
+        </ul>
       </div>
+      <b>
+        <p id="weather-info"></p>
+      </b>
     </div>
 
     <!-- my script -->

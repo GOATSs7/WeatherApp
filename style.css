@@ -4,11 +4,123 @@
 }
 
 .card {
-  width: 18rem;
-  height: 25rem !important;
+  width: 25rem;
+  height: 30rem;
   display: flex;
   justify-content: center;
-  margin: 5% 40%;
+  margin: 1% 20%;
   background-color: blueviolet !important;
   color: white !important;
+}
+
+.card-img-top {
+  background-size: cover;
+  background-position: center;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 22px;
+
+  font-size: larger;
+}
+
+.d-flex {
+  width: 30%;
+  margin-left: 20%;
+}
+
+/* from bard */
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.temp {
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.temperature {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.weather-info {
+  list-style: none;
+  padding: 0;
+}
+
+.weather-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather-label {
+  font-weight: 600;
+  width: 30%;
+}
+
+.weather-value {
+  width: 70%;
+}
+
+#weather-info {
+  margin-left: 20%;
+}
+
+@media (max-width: 768px) {
+  /* Mobile device specific CSS */
+
+  .card {
+    width: 90%;
+    margin: 1% 5%;
+  }
+
+  .d-flex {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .weather-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .temperature {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .weather-item {
+    margin-bottom: 5px;
+  }
+
+  .weather-label {
+    font-size: 14px;
+  }
+
+  .weather-value {
+    font-size: 16px;
+  }
 }

@@ -1,0 +1,48 @@
+cloud_pct
+: 
+86
+feels_like
+: 
+30
+humidity
+: 
+62
+max_temp
+: 
+28
+min_temp
+: 
+28
+sunrise
+: 
+1699578266
+sunset
+: 
+1699619378
+temp
+: 
+28
+wind_degrees
+
+: 
+94
+wind_speed
+: 
+4.29
+
+
+
+Here are some examples of cloud PCT values and their corresponding descriptions:
+
+0-10%: Clear sky
+11-25%: Mostly clear sky
+26-50%: Partly cloudy sky
+51-75%: Mostly cloudy sky
+76-100%: Overcast sky
+Cloud PCT can be used in a variety of ways, such as:
+
+Planning outdoor activities
+Forecasting precipitation
+Predicting solar energy production
+Studying climate change
+I hope this helps! Let me know if you have any other questions.
